@@ -4,6 +4,7 @@
     src: url('fontes/Demo-Medium.otf') format('opentype'),
          url('fontes/Demo-Regular.otf') format('opentype');
 }
+
 * {
     text-decoration: none;
     box-sizing: border-box;
