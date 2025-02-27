@@ -1,5 +1,9 @@
 /* Sessão de Configuração Principal da Página */
-
+@font-face {
+    font-family: 'Demo';
+    src: url('fontes/Demo-Medium.otf') format('opentype'),
+         url('fontes/Demo-Regular.otf') format('opentype');
+}
 * {
     text-decoration: none;
     box-sizing: border-box;
@@ -8,13 +12,7 @@
     font-family: "Demo";
 
 }
-@font-face {
-    font-family: 'MinhaFonte'; /* O nome que você vai usar para chamar a fonte */
-    src: url('fontes/Demo-Medium.otf') format('opentype')
-         url('fontes/Demo-Regular.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
+
 
 .corpo {
     height: 100vh;
