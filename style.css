@@ -169,6 +169,11 @@
     margin-top: 5%;
 
 }
+.rodape{
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+}
 
 /* Layout responsivo para dispositivos mobile*/
 
@@ -223,4 +228,10 @@
         width: 100%;
     }
 
+    .rodape{
+        font-size: 0.8rem;
+        display: flex;
+        justify-content: center;
+    }
+    
 }
