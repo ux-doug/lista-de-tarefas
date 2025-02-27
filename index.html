@@ -1,0 +1,40 @@
+<!-- Meta informações -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Técnico Santi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="corpo">
+    <!-- "Caixa" da Lista de tarefas -->
+    <div class="caixa">
+        <h1>Lista de Tarefas</h1>
+        <p>Deixe o seu dia mais fácil</p>
+        <input class="tarefas" type="text" placeholder="Digite sua tarefa aqui...">
+        <button class="addTarefa">+</button>
+
+        <!-- Filtro de tarefas -->
+        <div class="caixaFiltro">
+            <select class="filtroTarefas">
+                <option value="todos">Todas as Tarefas</option>
+                <option value="pendente">Pendentes</option>
+                <option value="concluida">Concluídas</option>
+            </select>
+        </div>
+
+        <!-- Lista de tarefas -->
+        <ul class="lista"></ul>
+
+        <div class="pendencias">
+            <p id="contadorPendencias"></p>
+        </div>
+        <!-- Sessão de implementação do script.js -->
+        <script src="script.js"></script>
+</body>
+
+</html>
