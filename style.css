@@ -258,5 +258,34 @@
         display: flex;
         justify-content: center;
     }
+
+    .lista__tarefas:active {
+
+        background: linear-gradient(to right, #fed15c, #fc9f4f, #ff7c50, #fe5049);
+        transition: all 0.7s ease;
+        color: #ffffff;
+        border: 2px solid #ffffff;
+    }
     
+    .lista__tarefas:active .icones {
+        opacity: 1;
+        transition: all 0.7s ease;
+    }
+    .addTarefa:active {
+    color: #000000;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    border: 2px solid floralwhite;
+
+}
+.concluido:active{
+    background-color: rgb(255, 255, 255);
+    transition: all 0.7s ease;
+    color: #000000;
+    border-radius: 8px;
+    text-decoration: line-through;
+    transition: all 0.5s ease;
+    border: 2px solid #ff7c50;
+}
+
 }
